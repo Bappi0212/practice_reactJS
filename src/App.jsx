@@ -1,11 +1,9 @@
-import './App.css'
+import React from 'react'
 
-function App() {
+const App = () => {
   return (
-    <div className="canvas">
-      <div className="text-container">
-        <h1 className="hero-text">hello world</h1>
-      </div>
+    <div>
+      <h1>Hello world</h1>
     </div>
   )
 }
